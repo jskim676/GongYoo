@@ -1,0 +1,59 @@
+#section-4 {
+  width: var(--vw-100);
+  height: var(--vh-150);
+}
+
+#section-4 > div:nth-child(1) {
+  width: inherit;
+  height: 25%;
+}
+
+#section-4 > div:nth-child(1) > div:nth-child(1) {
+  width: 50%;
+  height: 60%;
+}
+
+#section-4 > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1) {
+  font-size: 150px;
+  font-weight: 700;
+}
+
+#section-4 > div:nth-child(1) > div:nth-child(1) > h1:nth-child(2) {
+  color: var(--title-color);
+  text-shadow: -1px 0 var(--text-color), 0 1px var(--text-color), 1px 0 var(--text-color), 0 -1px var(--text-color);
+  font-size: 150px;
+  font-weight: 700;
+}
+
+#section-4 > div:nth-child(1) > div:nth-child(2) {
+  width: 20%;
+  height: 50%;
+  border: solid var(--award-color);
+  border-width: 0 3px;
+}
+
+#section-4 > div:nth-child(2) {
+  width: inherit;
+  height: 100%;
+}
+
+#section-4 > div:nth-child(2) > div {
+  width: 70%;
+  height: 90%;
+}
+
+#section-4 > div:nth-child(2) > div > div {
+  width: 100%;
+  height: 40%;
+}
+
+#section-4 > div:nth-child(2) > div > div > div {
+  width: 25%;
+  height: 100%;
+}
+
+#section-4 > div:nth-child(2) > div > div > img {
+  width: 25%;
+  height: 100%;
+}
+/*# sourceMappingURL=layout-section-4.css.map */

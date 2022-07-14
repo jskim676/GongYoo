@@ -1,0 +1,31 @@
+#intro {
+  width:inherit;
+  height:var(--vh-100);
+
+  & > div {
+    width:100%;
+    font-size: 100px;
+    font-weight: 500;
+    color:var(--title-color);
+
+    position:absolute;
+
+    & > div {
+      width:50%;
+      border:3px solid var(--title-color);
+      padding:20px;
+      opacity: 0.75;
+
+      // 공  유
+      & > h1 {
+        font-size: 150px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  & > img {
+    width:var(--vw-100);
+    height:var(--vh-100);
+  }
+}

@@ -1,0 +1,45 @@
+#section-2 {
+  width: var(--vw-100);
+  height: var(--vh-100);
+}
+
+#section-2 > div:nth-child(1) {
+  width: 45%;
+  height: inherit;
+}
+
+#section-2 > div:nth-child(1) > img {
+  width: 50%;
+  height: 50%;
+  border-radius: 300px 300px 0 0;
+}
+
+#section-2 > div:nth-child(1) > div > h1:nth-child(1) {
+  font-size: 150px;
+  font-weight: 700;
+}
+
+#section-2 > div:nth-child(1) > div > h1:nth-child(2) {
+  color: var(--title-color);
+  text-shadow: -1px 0 var(--text-color), 0 1px var(--text-color), 1px 0 var(--text-color), 0 -1px var(--text-color);
+  font-size: 150px;
+  font-weight: 700;
+}
+
+#section-2 > div:nth-child(2) {
+  width: 55%;
+  height: inherit;
+}
+
+#section-2 > div:nth-child(2) > ul {
+  width: 90%;
+  height: 50%;
+}
+
+#section-2 > div:nth-child(2) > ul > li {
+  width: 80%;
+  height: 8%;
+  background-color: var(--story-color);
+  padding: 1%;
+}
+/*# sourceMappingURL=layout-section-2.css.map */
