@@ -10,6 +10,15 @@
 </head>
 <body>
   <div id="root">
+    <nav class="flex-center-center">
+      <ul class="flex-column-spaceevenly-center">
+        <li data-li="1" class="select"></li>
+        <li data-li="2"></li>
+        <li data-li="3"></li>
+        <li data-li="4"></li>
+        <li data-li="5"></li>
+      </ul>
+    </nav>
     <section id="intro" class="flex-center-center">
       <div id="introTitle" class="flex-center-center">
         <div class="flex-spacebetween-center">
@@ -19,14 +28,14 @@
       </div>
       <img src="./img/Gong_Yoo/intro_Gong_Yoo.png" alt="">
     </section>
-    <section id="section-1" class="flex-column-center-center">
+    <section id="section-1" class="flex-column-center-center" data-page="1">
       <div class="flex-center-flexend">
         <div id="sectionOneTitle" class="flex-spacebetween-center">
           <h1>01</h1>
           <h1>공 유</h1>
         </div>
       </div>
-      <div class="flex-spaceevenly-center">
+      <div class="flex-spacearound-center">
         <div class="flex-column-spacebetween-flexstart">
           <h3>공 지 철</h3>
           <div class="flex-column-center-flexstart">
@@ -46,13 +55,13 @@
               (아버지의 성 ‘공’ , 어머니의 성 ‘유’)
             </p>
             <p>
-              부모님의 성을 합쳐 지은 예명인만큼 책임감을 가지며 또한 "공유하는 삶을 살겠다는 뜻" 으로 배우로서 더욱 열심히 활동
+              부모님의 성을 합쳐 지은 예명인 만큼 책임감을 느끼며 또한 "공유하는 삶을 살겠다는 뜻" 으로 배우로서 더욱 열심히 활동
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section id="section-2" class="flex">
+    <section id="section-2" class="flex" data-page="2">
       <div class="flex-column-spaceevenly-center">
         <img src="./img/Gong_Yoo/section-2_Gong_Yoo.png" alt="">
         <div id="sectionTwoTitle" class="flex">
@@ -70,14 +79,14 @@
         </ul>
       </div>
     </section>
-    <section id="section-3" class="flex-column-center-flexstart">
+    <section id="section-3" class="flex-column-center-flexstart" data-page="3">
       <div id="sectionThreeTitle" class="flex-center-center">
         <h1>03</h1>
         <h1>필모그래피</h1>
       </div>
       <div id="filmographySelect" class="flex-spacearound-center">
         <h2 data-select="0">영화</h2>
-        <h2 data-select="1">l</h2>
+        <div data-select="1"></div>
         <h2 data-select="2">드라마</h2>
       </div>
       <!-- film -->
@@ -211,7 +220,7 @@
       </div>
     </section>
 
-    <section id="section-4" class="flex-column-center-flexstart">
+    <section id="section-4" class="flex-column-center-flexstart" data-page="4">
       <div class="flex-spaceevenly-center">
         <div id="sectionFourTitle" class="flex-center-center">
           <h1>04</h1>
@@ -223,21 +232,49 @@
         </div>
       </div>
       <div class="flex-center-center">
-        <div id="advertisement" class="flex-column-center-center">
-          <div class="flex-flexstart-center">
-            <img src="./img/advertisement/KANU.png" alt="카누">
-            <div></div>
-            <img src="./img/advertisement/SSGCOM.png" alt="쓱">
+        <div id="advertisement" class="flex-spacearound-center">
+          <div class="flex-column-spacearound-flexstart">
+            <div class="flex-column-center-center">
+              <div class="flex-column-center-center">
+                <h3>KANU</h3>
+              </div>
+            </div>
+            <div class="flex-column-center-center">
+              <div class="flex-column-center-center">
+                <h3>Discovery</h3>
+                <p>EXPEDITION</p>
+              </div>
+            </div>
+            <div class="flex-column-center-center">
+              <div class="flex-column-center-center">
+                <h3>SSG.COM</h3>
+              </div>
+            </div>
+            <div class="flex-column-center-center">
+              <div class="flex-column-center-center">
+                <h3>TERRA</h3>
+              </div>
+            </div>
           </div>
-          <div class="flex-flexend-center">
-            <img src="./img/advertisement/Discovery_Expedition.png" alt="디스커버리익스페디션">
-            <div></div>
-            <img src="./img/advertisement/Terra.png" alt="테라">
+          <div class="flex-spacebetween-center">
+            <img src="./img/advertisement/KANU.png" alt="">
+            <!-- <img src="./img/advertisement/Discovery_Expedition.png" alt=""> -->
+            <!-- <img src="./img/advertisement/SSGCOM.png" alt=""> -->
+            <!-- <img src="./img/advertisement/Terra.png" alt=""> -->
+            <div class="flex-column-spacearound-center">
+              <div class="flex-column-spacearound-center" >
+                <p>2011년 ~ 현재</p>
+                <p>동서식품 | 맥심 카누</p>
+              </div>
+              <div class="flex-center-center">
+                <div></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="section-5" class="flex-column-center-center">
+    <section id="section-5" class="flex-column-center-center" data-page="5">
       <div class="flex-spaceevenly-center">
         <div id="sectionFiveTitle" class="flex-center-center">
           <h1>05</h1>

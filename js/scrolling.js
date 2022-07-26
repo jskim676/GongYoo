@@ -1,5 +1,5 @@
 function scrolling (target, height, animation) {
-  window.addEventListener('wheel',e=> {
+  window.addEventListener('wheel', function() {
     let winY = window.pageYOffset;
     if(winY > height) {
       target.style.opacity = 1;

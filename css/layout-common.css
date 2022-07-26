@@ -10,6 +10,8 @@ li {
 }
 
 body {
+  width: var(--vw-100);
+  height: var(--vh-700);
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -18,5 +20,24 @@ body {
   width: var(--vw-100);
   height: var(--vh-700);
   color: var(--text-color);
+}
+
+#root > nav {
+  width: 2%;
+  height: 100%;
+  position: fixed;
+  right: 1%;
+  z-index: 2;
+}
+
+#root > nav > ul {
+  width: 75%;
+  height: 60%;
+}
+
+#root > nav > ul > li {
+  width: 50%;
+  height: 15%;
+  border: 1px solid green;
 }
 /*# sourceMappingURL=layout-common.css.map */

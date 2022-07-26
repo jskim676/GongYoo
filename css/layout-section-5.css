@@ -1,7 +1,6 @@
 #section-5 {
   width: var(--vw-100);
   height: var(--vh-200);
-  border: 1px solid red;
 }
 
 #section-5 > div:nth-child(1) {
@@ -29,6 +28,5 @@
 #section-5 > div:nth-child(2) {
   width: 90%;
   height: 87.5%;
-  border: 1px solid red;
 }
 /*# sourceMappingURL=layout-section-5.css.map */
