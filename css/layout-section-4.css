@@ -46,7 +46,6 @@
 #section-4 > div:nth-child(2) > div > div:nth-child(1) {
   width: 25%;
   height: 100%;
-  border: 1px solid red;
 }
 
 #section-4 > div:nth-child(2) > div > div:nth-child(1) > div {
@@ -91,7 +90,6 @@
 #section-4 > div:nth-child(2) > div > div:nth-child(2) {
   width: 70%;
   height: 100%;
-  border: 1px solid blue;
 }
 
 #section-4 > div:nth-child(2) > div > div:nth-child(2) > img {
@@ -102,24 +100,27 @@
 #section-4 > div:nth-child(2) > div > div:nth-child(2) > div {
   width: 40%;
   height: 100%;
-  border: 1px solid green;
 }
 
 #section-4 > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(1) {
   width: 100%;
   height: 60%;
-  border: 1px solid red;
 }
 
 #section-4 > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) {
   width: 100%;
   height: 30%;
-  border: 1px solid red;
 }
 
 #section-4 > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > div {
   width: 90%;
-  height: 10%;
+  height: 5%;
   border: 1px solid black;
+}
+
+#section-4 > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > div > div {
+  width: 90%;
+  height: 100%;
+  background-color: blue;
 }
 /*# sourceMappingURL=layout-section-4.css.map */
